@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Remote -->
+  <remote name="GitHub" fetch="https://github.com" />
+
+  <!-- Device Trees -->
+  <project path="device/samsung/a52sxq" name="Galaxy-A52s-5G-AOSP/android_device_samsung_a52sxq" remote="GitHub" revision="16.2-avium" />
+  <project path="device/samsung/sm7325-common" name="Galaxy-A52s-5G-AOSP/android_device_samsung_sm7325_common" remote="GitHub" revision="16.2-avium" />
+
+  <!-- Vendor Trees -->
+  <project path="vendor/samsung/a52sxq" name="Galaxy-A52s-5G-AOSP/android_vendor_samsung_a52sxq" remote="GitHub" revision="16.2" />
+  <project path="vendor/samsung/sm7325-common" name="Galaxy-A52s-5G-AOSP/android_vendor_samsung_sm7325-common" remote="GitHub" revision="16.2" />
+
+  <!-- Kernel Trees -->
+  <project path="kernel/samsung/sm7325" name="Galaxy-A52s-5G-AOSP/android_kernel_samsung_sm7325" remote="GitHub" revision="16.2" />
+
+  <!-- Hardware -->
+  <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="GitHub" revision="lineage-23.2" />
+  <project path="hardware/samsung_slsi/nfc" name="LineageOS/android_hardware_samsung_slsi_nfc" remote="GitHub" revision="lineage-23.2" />
+  <project path="hardware/samsung-ext/interfaces" name="Galaxy-A52s-5G-AOSP/hardware_samsung-extra_interfaces" remote="GitHub" revision="16.0" />
+  <project path="hardware/dolby" name="Galaxy-A52s-5G-AOSP/android_hardware_dolby" remote="GitHub" revision="16.0" /> 
+  
+  <!-- GameBar -->
+  <project path="packages/apps/GameBar" name="Galaxy-A52s-5G-AOSP/packages_apps_GameBar" remote="GitHub" revision="16.2" />
+  
+</manifest>
